@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: linear-gradient(45deg, lightyellow, yellow );
+    justify-content: space-between;
+    box-shadow: 4px 4px 4px black;
+}
+.logoApp{
+    height: 45px;
+    margin: 0 15px
+}
+.author{
+    color: black;
+    text-decoration: none;
+}
+.author:hover{
+    background-color: whitesmoke;
+    color: blue;
+    text-decoration: underline;
+    padding: 10px;
+    border-radius: 30rem;
+}
+.navbar>div{
+    display: flex;
+    align-items: center;
+}
+.navbar>div>h1{
+    margin: 10px 0
+}
+.list{
+    display: flex;
+    width: fit-content
+}
+.navButton{
+    align-content: center;
+    width: 100px;
+    background: lightyellow;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px darkgoldenrod;
+    color: black
+}
+.navButton>h4{
+    margin: 10px 0
+}
+.navButton:hover{
+    background-color: gold;
+}
+.navButton:active{
+    transform: scale(.95);
+    box-shadow: 1px 1px 1px darkgoldenrod;
+}
+.activeLink{
+    background-color: darkgoldenrod;
+    color: white
+}
+nav{
+    align-self: center;
+}
