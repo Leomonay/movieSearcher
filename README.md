@@ -1,6 +1,6 @@
 # MovieSearcher
 
-![Imagen del proyecto](https://portfolio-leomonay.vercel.app/static/media/movieSearch.e2259a89.png)
+![Imagen del proyecto](https://github.com/Leomonay/movieSearcher/blob/main/thumbnail.png)
 
 ## Search Movies
 In this app, the user can search a movie in IMDB, using omdb free api.
